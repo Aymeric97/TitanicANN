@@ -96,13 +96,6 @@ while i<419:
 book.save(path)
 
 
-# Making the Confusion Matrix
-from sklearn.metrics import confusion_matrix
-cm = confusion_matrix(y_test, y_pred)
-
-#Pour connaître le taux de bonne prédiction
-(1475+226)/2000 #On obtient 85% ce qui est très bon
-#La prochaine étape est l'amélioration de l'algorithme
 
 
 
